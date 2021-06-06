@@ -43,4 +43,8 @@ cd ts-npm-package-boilerplate && npm i && rm -rf .git && git init
 
 Or create use the button "Use this template"
 
-Edit the Figma Icon: [Icon.fig](https://www.figma.com/file/vpevGX3j9tmtW8OyLQ9eUm/ts-npm-package-boilerplate-icon?node-id=0%3A1)
+Edit the Icon on Figma:
+
+<a href="https://www.figma.com/file/vpevGX3j9tmtW8OyLQ9eUm/ts-npm-package-boilerplate-icon?node-id=0%3A1">
+   <img alt="Figma Icon" src="https://raw.githubusercontent.com/hebertcisco/ts-npm-package-boilerplate/main/.github/images/figma-badge.png" />
+</a>
