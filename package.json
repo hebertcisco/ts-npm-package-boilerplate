@@ -1,5 +1,5 @@
 {
-  "name": "typescript-npm-package-boilerplate",
+  "name": "ts-npm-package-boilerplate",
   "version": "0.1.0",
   "description": "TypeScript NPM Module Boilerplate",
   "main": "lib/index.js",
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hebertcisco/typescript-npm-package-boilerplate.git"
+    "url": "git+https://github.com/hebertcisco/ts-npm-package-boilerplate.git"
   },
   "keywords": [
     "boilerplate",
@@ -27,9 +27,9 @@
   "author": "Hebert Cisco",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hebertcisco/typescript-npm-package-boilerplate/issues"
+    "url": "https://github.com/hebertcisco/ts-npm-package-boilerplate/issues"
   },
-  "homepage": "https://github.com/hebertcisco/typescript-npm-package-boilerplate#readme",
+  "homepage": "https://github.com/hebertcisco/ts-npm-package-boilerplate#readme",
   "devDependencies": {
     "@types/jest": "^26.0.15",
     "@typescript-eslint/eslint-plugin": "^4.5.0",
