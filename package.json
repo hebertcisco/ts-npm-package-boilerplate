@@ -1,0 +1,46 @@
+{
+  "name": "typescript-npm-package-boilerplate",
+  "version": "0.1.0",
+  "description": "TypeScript NPM Module Boilerplate",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.(js|ts)\"",
+    "lint": "eslint src --ext .js,.ts",
+    "lint:fix": "eslint src --fix --ext .js,.ts",
+    "test": "jest --config jest.config.js",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test && npm run lint",
+    "preversion": "npm run lint",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hebertcisco/typescript-npm-package-boilerplate.git"
+  },
+  "keywords": [
+    "boilerplate",
+    "typescript"
+  ],
+  "author": "Hebert Cisco",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hebertcisco/typescript-npm-package-boilerplate/issues"
+  },
+  "homepage": "https://github.com/hebertcisco/typescript-npm-package-boilerplate#readme",
+  "devDependencies": {
+    "@types/jest": "^26.0.15",
+    "@typescript-eslint/eslint-plugin": "^4.5.0",
+    "@typescript-eslint/parser": "^4.5.0",
+    "eslint": "^7.11.0",
+    "eslint-plugin-jest": "^24.1.0",
+    "jest": "^26.6.0",
+    "ts-jest": "^26.4.1",
+    "typescript": "^4.0.3"
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}
