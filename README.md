@@ -27,7 +27,6 @@
 
 <p align="center"><strong>TypeScript NPM Module Boilerplate</strong>✨</p>
 
-<p align="center">Connect your database easily using the ts-npm-package-boilerplate package</p>
 
 # Getting started
 
