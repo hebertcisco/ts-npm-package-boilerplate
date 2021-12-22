@@ -2,8 +2,6 @@
  <img width="100px" src="https://raw.githubusercontent.com/hebertcisco/ts-npm-package-boilerplate/main/.github/images/favicon512x512-npm.png" align="center" alt=":package: ts-npm-package-boilerplate" />
  <h2 align="center">:package: ts-npm-package-boilerplate</h2>
  <p align="center">TypeScript NPM Module Boilerplate</p>
-</p>
-
   <p align="center">
     <a href="https://github.com/hebertcisco/ts-npm-package-boilerplate/issues">
       <img alt="Issues" src="https://img.shields.io/github/issues/hebertcisco/ts-npm-package-boilerplate?style=flat&color=336791" />
@@ -22,15 +20,37 @@
     </a>
     <br />
     <br />
+ <a href="https://github.com/hebertcisco/ts-npm-package-boilerplate/actions/workflows/node.js-macos.yml">
+      <img alt="Node.js CI on Darwin" src="https://github.com/hebertcisco/ts-npm-package-boilerplate/actions/workflows/node.js-macos.yml/badge.svg" />
+    </a>
+  <a href="https://github.com/hebertcisco/ts-npm-package-boilerplate/actions/workflows/node.js-ubuntu.yml">
+      <img alt="Node.js CI on Ubuntu" src="https://github.com/hebertcisco/ts-npm-package-boilerplate/actions/workflows/node.js-ubuntu.yml/badge.svg" />
+    </a>
+ <a href="https://github.com/hebertcisco/ts-npm-package-boilerplate/actions/workflows/node.js-windows.yml">
+      <img alt="Node.js CI on Windows" src="https://github.com/hebertcisco/ts-npm-package-boilerplate/actions/workflows/node.js-windows.yml/badge.svg" />
+    </a>
+    <br />
+    <br />
+ <a href="https://github.com/hebertcisco/ts-npm-package-boilerplate/actions/workflows/npm-publish.yml">
+      <img alt="Node.js Package" src="https://github.com/hebertcisco/ts-npm-package-boilerplate/actions/workflows/npm-publish.yml/badge.svg" />
+    </a>
+ <a href="https://github.com/hebertcisco/ts-npm-package-boilerplate/actions/workflows/codeql-analysis.yml">
+      <img alt="CodeQL" src="https://github.com/hebertcisco/ts-npm-package-boilerplate/actions/workflows/codeql-analysis.yml/badge.svg?style=flat&color=336791" />
+    </a>
+    <br />
+    <br />
   <a href="https://github.com/hebertcisco/ts-npm-package-boilerplate/issues/new/choose">Report Bug</a>
   <a href="https://github.com/hebertcisco/ts-npm-package-boilerplate/issues/new/choose">Request Feature</a>
   </p>
  <h3 align="center">Systems on which it has been tested:</h3>
  <p align="center">
+   <a href="https://www.apple.com/br/macos/">
+      <img alt="Macos" src="https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=apple&logoColor=white&style=flat" />
+    </a>
     <a href="https://ubuntu.com/download">
       <img alt="Ubuntu" src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white&style=flat" />
     </a>
-    <a href="https://alpinelinux.org/">
+    <a href="https://www.microsoft.com/pt-br/windows/">
       <img alt="Windows" src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white&style=flat" />
     </a>
   </p>
