@@ -58,7 +58,6 @@
 
 <p align="center"><strong>TypeScript NPM Module Boilerplate</strong>✨</p>
 
-
 # Getting started
 
 ## Installation
@@ -68,14 +67,17 @@
 ### Open the directory and run the script line:
 
 ```bash
-cd ts-npm-package-boilerplate 
+cd ts-npm-package-boilerplate
 ```
+
 ```bash
 npm i  # or yarn
 ```
+
 ```bash
 rm -rf .git && git init && git add . && git commit -m "Initial commit" #Optional
 ```
+
 Or create use the button "Use this template"
 
 Edit the Icon on Figma:
