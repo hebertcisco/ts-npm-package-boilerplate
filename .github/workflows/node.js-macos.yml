@@ -2,9 +2,9 @@ name: Node.js CI on Darwin
 
 on:
   push:
-    branches: [master, dev]
+    branches: [main, develop]
   pull_request:
-    branches: [master, dev]
+    branches: [main, develop]
 
 jobs:
   build:
