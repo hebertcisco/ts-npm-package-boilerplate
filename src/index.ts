@@ -1,1 +1,2 @@
-export default 'This module must not be required!';
+import os from 'os';
+export default os;
