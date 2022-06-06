@@ -1,13 +1,13 @@
-import exported_os from '../index';
-import * as os from 'os';
+import uuid from '../index';
 
-it('arch works', () => {
-  expect(exported_os.arch()).toBe(os.arch());
-});
+describe('valid UUID', () => {
+  let VALID_UUID_REGEX: RegExp;
 
-it('release works', () => {
-  expect(exported_os.release()).toBe(os.release());
-});
-it('type works', () => {
-  expect(exported_os.type()).toBe(os.type());
+  beforeAll(() => {
+    VALID_UUID_REGEX = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
+  });
+
+  test('should match a valid UUID', () => {
+    expect(VALID_UUID_REGEX.test(uuid.v4())).toBeTruthy();
+  });
 });
