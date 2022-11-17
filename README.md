@@ -39,6 +39,7 @@
 
 <p align="center"><strong>TypeScript NPM Module Boilerplate</strong>✨</p>
 
+[![codecov](https://codecov.io/gh/hebertcisco/ts-npm-package-boilerplate/branch/main/graph/badge.svg?token=Q9fr548J0D)](https://codecov.io/gh/hebertcisco/ts-npm-package-boilerplate)
 
 # Getting started
 
@@ -78,8 +79,6 @@ Or buy me a coffee 🙌🏾
 <a href="https://www.buymeacoffee.com/hebertcisco">
     <img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=hebertcisco&button_colour=FFDD00&font_colour=000000&font_family=Inter&outline_colour=000000&coffee_colour=ffffff" />
 </a>
-
-[![codecov](https://codecov.io/gh/hebertcisco/ts-npm-package-boilerplate/branch/main/graph/badge.svg?token=Q9fr548J0D)](https://codecov.io/gh/hebertcisco/ts-npm-package-boilerplate)
 
 ## 📝 License
 
