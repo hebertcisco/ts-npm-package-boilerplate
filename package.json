@@ -31,7 +31,7 @@
   },
   "homepage": "https://github.com/hebertcisco/ts-npm-package-boilerplate#readme",
   "devDependencies": {
-    "@types/jest": "29.2.3",
+    "@types/jest": "29.2.4",
     "@typescript-eslint/eslint-plugin": "5.45.0",
     "@typescript-eslint/parser": "5.45.1",
     "eslint": "8.29.0",
