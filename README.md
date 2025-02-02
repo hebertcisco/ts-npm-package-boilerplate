@@ -82,5 +82,5 @@ Or buy me a coffee 🙌🏾
 
 ## 📝 License
 
-Copyright © 2022 [Hebert F Barros](https://github.com/hebertcisco).<br />
+Copyright © 2025 [Hebert F Barros](https://github.com/hebertcisco).<br />
 This project is [MIT](LICENSE) licensed.
