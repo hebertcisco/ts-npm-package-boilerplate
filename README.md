@@ -82,8 +82,8 @@ Starter template for building and publishing typed Node.js libraries to npm usin
 
 Option A — Use as template (recommended):
 
-1) Click “Use this template” on GitHub to create your repo.
-2) Clone your new repo and install dependencies:
+1. Click “Use this template” on GitHub to create your repo.
+2. Clone your new repo and install dependencies:
 
 ```bash
 git clone https://github.com/<your-username>/<your-repo>.git
@@ -159,17 +159,17 @@ GitHub Actions are included:
 
 ## Publishing
 
-1) Ensure you are logged in: `npm login`.
-2) Update `package.json` metadata and ensure `files` includes what you want to publish.
-3) Bump version: `npm version patch|minor|major`.
-4) Publish: `npm publish`.
+1. Ensure you are logged in: `npm login`.
+2. Update `package.json` metadata and ensure `files` includes what you want to publish.
+3. Bump version: `npm version patch|minor|major`.
+4. Publish: `npm publish`.
 
 Alternatively, create a GitHub Release and let the publish workflow handle it (requires `NPM_TOKEN`).
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome. Check the issues page:
-https://github.com/hebertcisco/ts-npm-package-boilerplate/issues
+<https://github.com/hebertcisco/ts-npm-package-boilerplate/issues>
 
 ## Show your support
 
@@ -183,7 +183,6 @@ Or buy me a coffee 🙌🏾
 
 ## 📝 License
 
-Copyright © 2025 [Hebert F Barros](https://github.com/hebertcisco).
+Copyright © 2025 [@hebertcisco](https://github.com/hebertcisco).
 
 This project is [MIT](LICENSE) licensed.
-

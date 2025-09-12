@@ -6,10 +6,10 @@ Thank you for helping keep this project and its users safe.
 
 This repository is a boilerplate. For this template itself, only the latest published version is actively supported with security updates. If you use this repository as a starting point for your own package, define and maintain a policy that fits your needs.
 
-| Version         | Supported          |
-| --------------- | ------------------ |
-| Latest release  | :white_check_mark: |
-| Older releases  | :grey_question: Best-effort only |
+| Version        | Supported                        |
+| -------------- | -------------------------------- |
+| Latest release | :white_check_mark:               |
+| Older releases | :grey_question: Best-effort only |
 
 ## Reporting a vulnerability
 

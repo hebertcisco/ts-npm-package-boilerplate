@@ -6,7 +6,7 @@
   "types": "lib/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "format": "prettier --write \"src/**/*.(js|ts)\"",
+    "format": "npx prettier --write ./**/*.{js,jsx,ts,tsx,md,json}",
     "lint": "eslint src --ext .js,.ts",
     "lint:fix": "eslint src --fix --ext .js,.ts",
     "test": "jest --config jest.config.js",
@@ -26,7 +26,7 @@
     "npm",
     "module"
   ],
-  "author": "Hebert Cisco",
+  "author": "hebertcisco",
   "private": false,
   "publishConfig": {
     "access": "public"
