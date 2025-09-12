@@ -1,5 +1,38 @@
 {
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:base"
+    "config:base",
+    ":dependencyDashboard",
+    ":semanticCommits",
+    "group:monorepos",
+    "group:linters"
+  ],
+  "labels": ["dependencies"],
+  "timezone": "America/Sao_Paulo",
+  "baseBranches": ["develop"],
+  "rangeStrategy": "bump",
+  "rebaseWhen": "behind-base-branch",
+  "lockFileMaintenance": {
+    "enabled": true,
+    "automerge": true,
+    "schedule": ["before 4am on monday"]
+  },
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "automerge": true
+    },
+    {
+      "matchUpdateTypes": ["major"],
+      "labels": ["dependencies", "major"]
+    },
+    {
+      "matchDepTypes": ["devDependencies"],
+      "labels": ["dependencies", "dev"]
+    },
+    {
+      "matchPackagePatterns": ["^@types/"],
+      "groupName": "@types packages"
+    }
   ]
 }
