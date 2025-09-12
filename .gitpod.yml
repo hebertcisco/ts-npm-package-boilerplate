@@ -1,4 +1,16 @@
+image: gitpod/workspace-node:22
+
 tasks:
-  - init: npm install && npm run build
+  - name: Setup and build
+    init: |
+      corepack enable || true
+      npm ci
+      npm run build
+    command: npm test -- --runInBand
 
-
+vscode:
+  extensions:
+    - dbaeumer.vscode-eslint
+    - esbenp.prettier-vscode
+    - EditorConfig.EditorConfig
+    - eamodio.gitlens
