@@ -17,11 +17,7 @@ module.exports = [
   },
 
   // Bring in recommended rule sets via compat
-  ...compat.extends(
-    'eslint:recommended',
-    'plugin:@typescript-eslint/recommended',
-    'plugin:jest/recommended'
-  ),
+  ...compat.extends('eslint:recommended', 'plugin:@typescript-eslint/recommended', 'plugin:jest/recommended'),
 
   // Project-specific settings
   {
