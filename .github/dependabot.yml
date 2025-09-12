@@ -4,6 +4,35 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
+      time: "03:00"
+      timezone: "America/Sao_Paulo"
+    target-branch: "develop"
+    open-pull-requests-limit: 10
+    labels:
+      - "dependencies"
+    commit-message:
+      prefix: "chore"
+      include: "scope"
+    groups:
+      minor-and-patch:
+        update-types:
+          - "minor"
+          - "patch"
+      eslint:
+        patterns:
+          - "eslint"
+          - "@typescript-eslint/*"
+      types:
+        patterns:
+          - "@types/*"
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "03:00"
+      timezone: "America/Sao_Paulo"
     target-branch: "develop"
     labels:
       - "dependencies"
+      - "ci"
